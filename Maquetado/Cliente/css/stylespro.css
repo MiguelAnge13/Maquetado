@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;  
+}
+
+header {
+  background-color: #376076;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+.body {
+    background-color: white;
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.sb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.b2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+}
+
+.b3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border: 2px solid white;
+}
+
+.acciones {
+    height: 50px;
+    width: 200px;
+    border-radius: 2px;
+    border: 2px solid #376076;
+}
+
+input {
+    height: 50px;
+    width: 200px;
+    border-radius: 2px;
+    border: 2px solid #376076;
+}
+
+.pagactual {
+    background-color: #376076;
+    color: white;
+}
+
+.contenedor {
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .titulo {
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    .grid-proyectos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .proyecto {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+      padding: 20px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .proyecto:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    .proyecto h3 {
+      font-size: 20px;
+      color: #007bff;
+      margin-bottom: 10px;
+    }
+
+    .proyecto p {
+      font-size: 15px;
+      color: #555;
+      margin-bottom: 12px;
+    }
+
+    .detalles {
+      font-size: 13px;
+      color: #777;
+    }
+
+    .etiqueta {
+      display: inline-block;
+      padding: 4px 10px;
+      background-color: #e0f3ff;
+      color: #007bff;
+      border-radius: 6px;
+      font-size: 12px;
+      margin-top: 6px;
+    }

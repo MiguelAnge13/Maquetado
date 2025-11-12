@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;  
+}
+
+header {
+  background-color: #376076;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border: 2px solid white;
+}
+
+.pagactual {
+    background-color: #376076;
+    color: white;
+}
+
+.body {
+    background-color: white;
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+
+.body .ci .imagen{
+    position: relative;
+    margin-right: -20px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.body .ci .imagen img{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    transition: transform 0.5s ease-in-out;
+}
+
+.body .ci .imagen .nombre {
+    position: absolute;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    display: none;
+    min-width: 100px;
+    width: 130px;
+    top: -60px;
+    padding: 10px 15px;
+}
+
+.body .ci .imagen .nombre .text {
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    width: 120px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.body .ci .imagen .nombre::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    left: 40%;
+    bottom: -20px;
+    border-top: 10px solid black;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.body .ci .imagen:hover .nombre {
+    display: inline-block;
+    transform: translateY(-20px);
+}
+
+.body .ci .imagen:hover img{
+    transform: translateY(-20px);
+}
+
+@media (max-width: 600px){
+    .body{
+        flex-direction: column;
+        height: 180vh;
+    }
+}

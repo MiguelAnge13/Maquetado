@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;  
+}
+
+header {
+  background-color: #376076;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border: 2px solid white;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+.body {
+    background-color: white;
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagactual {
+    background-color: #376076;
+    color: white;
+}
+
+.izquierda {
+    height: 80vh;
+    width: 20vw;
+    border: 2px solid #376076;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.codigos {
+    height: 50px;
+    width: 340px;
+}
+
+.derecha {
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+input {
+    height: 30px;
+    width: 500px;
+    border-radius: 100px;
+    border: 2px solid #376076
+}
+
+.ba {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.acciones {
+    height: 50px;
+    width: 200px;
+    border-radius: 2px;
+    border: 2px solid #376076;
+}

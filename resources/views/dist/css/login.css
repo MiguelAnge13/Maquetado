@@ -1,0 +1,82 @@
+
+body {
+  display: flex;
+  justify-content: center;   /* centrar largo*/
+  align-items: center;       /* centrar lo ancho */
+  gap: 30px;                 /* espacio entre el login y la imagen*/
+  min-height: 100vh;          
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-left: 100px;/*hacer de ladito el login*/
+  background-color: white;
+}
+
+.auth-container{
+  background-color: #1E354A;
+  padding: 150px;
+  border-radius: 20px;
+  width: 250px;
+}
+/*.auth-container img {
+ border-radius: 100px;
+}*/
+.robotcito {
+  background: url(../img/ro.png) no-repeat center center;
+  background-size: contain; /* para que la imagen este completa dentro del div */
+  width: 500px;
+  height: 800px;
+}
+
+  .auth-container h2 { 
+    margin-bottom: 20px; 
+    text-align: center; 
+    color: #ffffff; 
+  } 
+  .auth-container input[type="email"], 
+  .auth-container input[type="password"] { 
+    width: 100%; 
+    padding: 10px; 
+    margin: 10px 0; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    font-size: 16px; 
+  } 
+  /*
+  .auth-container button { 
+    width: 100%; 
+    padding: 10px; 
+    background-color: #B4874A;
+    color: white; 
+    border: none; 
+    border-radius: 8px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    margin-top: 15px; 
+    transition: background-color 0.3s; 
+    display: block; 
+    margin: 10px auto; 
+ 
+  } */
+
+
+.auth-container img { 
+display: block;  
+margin: 0 auto; 
+margin-top: 0px; 
+} 
+
+.boton {
+  background-color:#1E354A;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.boton:hover {
+  background-color: black;
+  color: white;
+}

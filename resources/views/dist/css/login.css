@@ -22,7 +22,7 @@ body {
  border-radius: 100px;
 }*/
 .robotcito {
-  background: url(../img/ro.png) no-repeat center center;
+  background: url(../dist/img/ro.png) no-repeat center center;
   background-size: contain; /* para que la imagen este completa dentro del div */
   width: 500px;
   height: 800px;

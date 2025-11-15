@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Validación de formulario</title>
-    <link rel="stylesheet" href="Cliente/css/sesionE.css" />
+    <link rel="stylesheet" href="../dist/css/sesionE.css" />
 </head>
 
 <body>
@@ -19,7 +19,7 @@
 
         <div class=row>
             <div class="col-4"></div>
-            <div class="col-2"><img src="Cliente/img/tecLogo.png" width="400px" height="200px"></div>
+            <div class="col-2"><img src="../dist/img/tecLogo.png" width="400px" height="200px"></div>
             <div class="col-5"></div>
         </div>
     </div>
@@ -50,8 +50,8 @@
             <div class="form-floating" style="text-align:center;padding: 40px;">
                 <button type="submit" class="boton">Validar</button>
 
-                 <a href="inicial.html" class="boton">Ir a inicio</a>
-                  <a href="login.html" class="boton">Iniciar sesión</a>
+                 <a href="/inicial" class="boton">Ir a inicio</a>
+                  <a href="/login" class="boton">Iniciar sesión</a>
               
             </div>
         </form>

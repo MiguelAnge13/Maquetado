@@ -4,43 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyectos</title>
-    <link rel="stylesheet" href="css/stylespro.css">
+    <link rel="stylesheet" href="../dist/css/stylespro.css">
 </head>
 <body>
     <header>
-        <img src="img/LOGO.jpeg" alt="logo" class="logo">
+        <img src="../dist/img/LOGO.jpeg" alt="logo" class="logo">
         <h1>PROYECTOS</h1>
         <nav>
-            <form action = "Inicio.html">
+            
+            <form action = "/Inicio">
                 <button>INICIO</button>
             </form>
-            <form action = "Proyectos.html">
+            <form action = "/Proyectos">
                 <button class="pagactual">PROYECTOS</button>
             </form>
-            <form action = "Participantes.html">
+            <form action = "/Participantes">
                 <button>PARTICIPANTES</button>
             </form>
-            <form action = "Librerias.html">
+            <form action = "/ibrerias">
                 <button>LIBRERIAS</button>
             </form>
-            <form action = "Microcontrolador.html">
+            <form action = "/Microcontrolador">
                 <button>MICROCONTROLADOR</button>
             </form>
-            <form action = "Calibracion.html">
+            <form action = "/Calibracion">
                 <button>CALIBRACIÓN</button>
             </form>
-            <form action = "Codigos.html">
+            <form action = "/Codigos">
                 <button>CÓDIGOS</button>
             </form>
-            <form action = "Historial.html">
+            <form action = "/Historial">
                 <button>HISTORIAL</button>
             </form>
-            
-            <form action="../login.html" method="post">
+            <form action="/login" method="post">
                 <button type="submit">CERRAR SESIÓN</button>
             </form>
         </nav>
-        
     </header>
 
     <div class="body">

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <title>INICIO</title>
-    <link rel="stylesheet" href="Cliente/css/inicial.css" />
+    <link rel="stylesheet" href="../dist/css/inicial.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
@@ -26,16 +26,13 @@
     </div>
 
     <div class="contenedor-principal" style="background: url(Cliente/img/fondo.webp);">
-        <img src="Cliente/img/logo.png" class="imagen-circular" alt="Robot">
-        <!-- <h1>ROBÓTICA</h1>-->
+        <img src="../dist/img/logo.png" class="imagen-circular" alt="Robot">
         <div class="botones">
-            <!--<a href="sesion.php" class="boton">REGISTRAR</a>-->
-            <a href="login.html" class="boton">INICIAR</a>
+            <a href="/login" class="boton">INICIAR</a>
         </div>
     </div>
 
     <div class="pie">
-        <?php include_once('Cliente/include/pie.php'); ?>
     </div>
 </body>
 
